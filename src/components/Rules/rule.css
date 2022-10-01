@@ -1,0 +1,14 @@
+.rule{
+    background-color: transparent;
+    border: 2px solid hsl(217, 16%, 45%);
+    color: hsl(218, 49%, 92%);
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    width: 130px;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+
+}

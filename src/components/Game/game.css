@@ -1,0 +1,31 @@
+.placeholder{
+    width: 250px;
+    height: 250px;
+    background-color: #00000020;
+    border-radius: 50%;
+}
+
+.game-container{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.game-text{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.move-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 280px;
+}

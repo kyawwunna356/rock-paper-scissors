@@ -1,0 +1,25 @@
+.finish-container{
+    margin: 150px auto;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.finish-button{
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    color: hsl(229, 25%, 31%);
+    border-radius: 15px;
+    width: 190px;
+    padding: 11px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 999;
+    
+}

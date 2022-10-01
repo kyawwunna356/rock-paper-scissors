@@ -1,0 +1,52 @@
+.larger-circle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 5px 1px #f6eeee;
+    z-index: 5;
+}
+
+.circle{
+    width: 80%;
+    height: 80%;
+    background-color: azure;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+}
+.hand-img{
+    width: 40%;
+    height: 40%;
+    z-index: 7;
+}
+
+.larger-circle::after{
+    content: '';
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #ffffff20;
+    position: absolute;
+    z-index: -2;
+    display: none
+}
+
+.circle::after{
+    content: '';
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #ffffff10;
+    position: absolute;
+    z-index: -1;
+    display: none
+}
+
+.winner.circle::after,.winner.larger-circle::after{
+    display: block;
+}
