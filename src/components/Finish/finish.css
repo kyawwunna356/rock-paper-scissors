@@ -20,6 +20,27 @@
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    z-index: 999;
+    z-index: 1000;
     
+}
+
+@media screen and (max-width: 500px) {
+    .finish-container{
+        margin: 150px auto;
+        font-size: 20px;     
+    }
+    
+    .finish-button{
+        border-radius: 15px;
+        width: 100px;
+        display: block;
+        padding: 10px 15px;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        z-index: 999;
+        
+    }
+
+
 }

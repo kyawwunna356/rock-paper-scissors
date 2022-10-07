@@ -29,3 +29,23 @@
     width: 280px;
     height: 280px;
 }
+
+@media screen and (max-width: 500px) {
+    .move-container{
+        width: 140px;
+        height: 140px;
+       
+    }
+
+    .game-container{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }   
+
+    .placeholder{
+        width: 140px;
+        height: 140px;
+    }
+
+}

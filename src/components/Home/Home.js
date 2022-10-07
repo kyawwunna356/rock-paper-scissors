@@ -47,7 +47,7 @@ function Home() {
   return (
     <motion.div className='home-container' variants={routeVariants} initial="hidden" animate="visible" exit="exit">
         <motion.div className="paper" variants={iconVariants} whileHover="hover" whileTap="tap">
-            <Link to="game"  onClick={()=>handleClick('paper')} va >
+            <Link to="game"  onClick={()=>handleClick('paper')}>
                 <Hand type="paper" />
             </Link>
         </motion.div>

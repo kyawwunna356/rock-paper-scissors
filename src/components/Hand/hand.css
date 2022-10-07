@@ -50,3 +50,15 @@
 .winner.circle::after,.winner.larger-circle::after{
     display: block;
 }
+
+@media screen and (max-width: 500px) {
+    .larger-circle::after{
+      
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+
+}

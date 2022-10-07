@@ -38,3 +38,9 @@
     padding: 0;
     color: hsl(229, 25%, 31%);
 }
+
+@media screen and (max-width: 500px) {
+    .header-container{
+        width: 80%;
+    }
+}
